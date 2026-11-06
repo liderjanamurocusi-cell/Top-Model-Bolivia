@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP MODEL'S GOLD BOLIVIA | Agencia & Academia de Modelaje</title>
+    <link rel="icon" type="image/png" href="Imagenes/logo.png">
+    <meta name="description" content="Agencia y Academia de Modelaje TOP MODEL'S GOLD BOLIVIA. Formación profesional de modelos, pasarela, eventos y representación en El Alto y Potosí.">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            400: '#f3c669',
+                            500: '#d4af37',
+                            600: '#aa8c2c',
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts: Playfair Display & Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        /* Estilos personalizados y scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #09090b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #d4af37;
+            border-radius: 3px;
+        }
+        
+        /* Efectos de texto dorado */
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #fff 0%, #d4af37 50%, #f3c669 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .gold-border-glow {
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+        }
+
+        /* Aspect ratio para videos de TikTok/Reels (9:16) */
+        .aspect-vertical-video {
+            aspect-ratio: 9 / 16;
+        }
+    </style>
+</head>
+<body class="font-sans bg-black text-slate-100 antialiased selection:bg-gold-500 selection:text-black">
+
+    <!-- Barra de anuncios superior -->
+    <div class="bg-zinc-950 text-zinc-400 text-xs py-2 px-4 border-b border-zinc-800/80">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-6 tracking-wider">
+                <span class="flex items-center gap-1.5"><i data-lucide="sparkles" class="w-3.5 h-3.5 text-gold-500"></i> INSCRIPCIONES ABIERTAS - TEMPORADA 2026</span>
+                <span class="hidden sm:flex items-center gap-1.5"><i data-lucide="award" class="w-3.5 h-3.5 text-gold-500"></i> SUCURSALES EN LA PAZ Y POTOSÍ</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="#casting" class="text-gold-400 hover:underline font-semibold flex items-center gap-1"><i data-lucide="user-plus" class="w-3.5 h-3.5"></i> Postula al Casting</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navegación Principal -->
+    <header class="sticky top-0 z-50 bg-black/90 backdrop-blur-md border-b border-zinc-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                
+                <!-- Logo de la Agencia -->
+
+                <!-- Logo de la Agencia (HEADER) -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <!-- Aquí va tu imagen. Ajusta la ruta "Imagenes/logo.png" a donde tengas tu archivo -->
+                    <img src="Imagenes/logo1.png" alt="Logo Top Models Gold" class="h-12 w-auto object-contain">
+    
+                    <!-- Si tu logo YA incluye el texto, puedes borrar este <div> de abajo -->
+                    <div>
+                        <span class="font-serif text-lg font-bold tracking-widest text-white block leading-none">TOP MODEL'S</span>
+                        <span class="text-[10px] font-bold text-gold-500 uppercase tracking-[0.25em]">GOLD BOLIVIA</span>
+                    </div>
+                </a>
+
+                <!-- Menú Escritorio -->
+                <nav class="hidden md:flex items-center gap-8 font-medium text-xs tracking-widest uppercase text-zinc-300">
+                    <a href="#inicio" class="hover:text-gold-400 transition">Inicio</a>
+                    <a href="#servicios" class="hover:text-gold-400 transition">Servicios</a>
+                    <a href="#sucursales" class="hover:text-gold-400 transition">Sucursales</a>
+                    <a href="#galeria" class="hover:text-gold-400 transition">Portafolio</a>
+                    <a href="#videos" class="hover:text-gold-400 transition">Videos & Promos</a>
+                    <a href="#casting" class="hover:text-gold-400 transition">Casting</a>
+                </nav>
+
+                <!-- Botón de Acción Principal -->
+                <div class="hidden lg:flex items-center gap-3">
+                    <a href="https://wa.me/59170540427?text=Hola%20Top%20Models%20Gold%20Bolivia,%20quisiera%20más%20información%20sobre%20los%20cursos%20y%20castings." target="_blank" class="inline-flex items-center gap-2 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-black font-bold px-6 py-2.5 text-xs tracking-wider uppercase transition-all shadow-lg shadow-gold-500/10">
+                        <i data-lucide="message-circle" class="w-4 h-4"></i> Contactar WhatsApp
+                    </a>
+                </div>
+
+                <!-- Botón Menú Móvil -->
+                <button id="mobile-menu-btn" class="md:hidden p-2 text-zinc-300 hover:text-gold-400 focus:outline-none">
+                    <i data-lucide="menu" class="w-7 h-7"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Menú desplegable Móvil -->
+        <div id="mobile-menu" class="hidden md:hidden bg-zinc-950 border-b border-zinc-800 px-4 pt-3 pb-6 space-y-3">
+            <a href="#inicio" class="block py-2 text-zinc-300 font-medium text-xs tracking-widest uppercase border-b border-zinc-900">Inicio</a>
+            <a href="#servicios" class="block py-2 text-zinc-300 font-medium text-xs tracking-widest uppercase border-b border-zinc-900">Servicios</a>
+            <a href="#sucursales" class="block py-2 text-zinc-300 font-medium text-xs tracking-widest uppercase border-b border-zinc-900">Sucursales</a>
+            <a href="#galeria" class="block py-2 text-zinc-300 font-medium text-xs tracking-widest uppercase border-b border-zinc-900">Portafolio</a>
+            <a href="#videos" class="block py-2 text-zinc-300 font-medium text-xs tracking-widest uppercase border-b border-zinc-900">Videos & Promos</a>
+            <a href="#casting" class="block py-2 text-zinc-300 font-medium text-xs tracking-widest uppercase border-b border-zinc-900">Casting</a>
+            <a href="https://wa.me/59170540427?text=Hola%20Top%20Models%20Gold%20Bolivia,%20quisiera%20más%20información" target="_blank" class="w-full flex items-center justify-center gap-2 bg-gold-500 text-black font-bold py-3 text-xs uppercase tracking-wider mt-4">
+                <i data-lucide="message-circle" class="w-4 h-4"></i> Contactar por WhatsApp
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="relative min-h-[88vh] flex items-center justify-center bg-zinc-950 overflow-hidden border-b border-zinc-800">
+        <!-- Fondo con overlay e imagen editorial -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=1800" 
+                alt="Top Models Gold Bolivia Fashion Show" 
+                class="w-full h-full object-cover object-top opacity-30 grayscale filter"
+                onerror="this.src='https://placehold.co/1800x1000/18181b/FFFFFF?text=TOP+MODELS+GOLD+BOLIVIA'">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-20 text-center">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 border border-gold-500/40 bg-black/60 backdrop-blur-sm text-gold-400 text-xs font-semibold tracking-widest uppercase mb-6">
+                <i data-lucide="crown" class="w-4 h-4"></i> La Agencia Líder en Pasarela y Moda
+            </div>
+
+            <h1 class="font-serif text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-6 uppercase leading-tight">
+                Elegancia, Actitud & <br/>
+                <span class="gold-gradient-text">Proyección Internacional</span>
+            </h1>
+
+            <p class="text-zinc-400 text-sm sm:text-base max-w-2xl mx-auto font-light leading-relaxed mb-10 tracking-wide">
+                Formamos y representamos a los mejores talentos de Bolivia. Academia de modelaje profesional, certámenes de belleza, desfiles de alta costura y campañas publicitarias.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-5">
+                <a href="#casting" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white text-black hover:bg-gold-400 font-bold px-8 py-4 text-xs uppercase tracking-widest transition-all">
+                    <i data-lucide="sparkles" class="w-4 h-4"></i> Inscribirme
+                </a>
+                <a href="#servicios" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-transparent border border-zinc-700 text-white hover:border-gold-500 hover:text-gold-400 font-medium px-8 py-4 text-xs uppercase tracking-widest transition-all">
+                    Ver Servicios
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cifras / Stats -->
+    <section class="bg-zinc-950 border-b border-zinc-800 py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center divide-y lg:divide-y-0 lg:divide-x divide-zinc-800/60">
+                <div class="pt-4 lg:pt-0">
+                    <span class="font-serif text-3xl sm:text-4xl font-bold text-white block">2</span>
+                    <span class="text-gold-500 text-[11px] font-semibold tracking-widest uppercase mt-1 block">Sucursales (El Alto & Potosí)</span>
+                </div>
+                <div class="pt-4 lg:pt-0">
+                    <span class="font-serif text-3xl sm:text-4xl font-bold text-white block">+500</span>
+                    <span class="text-gold-500 text-[11px] font-semibold tracking-widest uppercase mt-1 block">Modelos Graduados</span>
+                </div>
+                <div class="pt-4 lg:pt-0">
+                    <span class="font-serif text-3xl sm:text-4xl font-bold text-white block">+80</span>
+                    <span class="text-gold-500 text-[11px] font-semibold tracking-widest uppercase mt-1 block">Desfiles & Eventos</span>
+                </div>
+                <div class="pt-4 lg:pt-0">
+                    <span class="font-serif text-3xl sm:text-4xl font-bold text-white block">100%</span>
+                    <span class="text-gold-500 text-[11px] font-semibold tracking-widest uppercase mt-1 block">Formación Profesional</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="py-24 bg-black border-b border-zinc-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-gold-500 font-semibold text-xs uppercase tracking-widest border-b border-gold-500/40 pb-1">Nuestra Propuesta</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-4 uppercase">Servicios de la Agencia</h2>
+                <p class="text-zinc-400 text-sm mt-3 font-light">Ofrecemos formación integral para nuevos talentos y servicios corporativos de alto nivel para marcas.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Servicio 1 -->
+                <div class="bg-zinc-950 p-8 border border-zinc-800 hover:border-gold-500/60 transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 border border-zinc-700 bg-black flex items-center justify-center text-gold-500 mb-6 group-hover:border-gold-500 transition-colors">
+                            <i data-lucide="footprints" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-white mb-3">Academia de Pasarela</h3>
+                        <p class="text-zinc-400 text-xs leading-relaxed font-light mb-6">
+                            Técnicas avanzadas de postura, giro, expresión corporal, proyección escénica y dominio de tacos para desfiles de moda.
+                        </p>
+                    </div>
+                    <span class="text-[10px] font-bold tracking-widest uppercase text-gold-500 border-t border-zinc-900 pt-4">Nivel Principiante & Avanzado</span>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="bg-zinc-950 p-8 border border-zinc-800 hover:border-gold-500/60 transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 border border-zinc-700 bg-black flex items-center justify-center text-gold-500 mb-6 group-hover:border-gold-500 transition-colors">
+                            <i data-lucide="camera" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-white mb-3">Fotografia & Pasarela</h3>
+                        <p class="text-zinc-400 text-xs leading-relaxed font-light mb-6">
+                            Preparación frente a la cámara, manejo de ángulos faciales, creación de Book Fotográfico y producción comercial.
+                        </p>
+                    </div>
+                    <span class="text-[10px] font-bold tracking-widest uppercase text-gold-500 border-t border-zinc-900 pt-4">Producción de Portafolio</span>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="bg-zinc-950 p-8 border border-zinc-800 hover:border-gold-500/60 transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 border border-zinc-700 bg-black flex items-center justify-center text-gold-500 mb-6 group-hover:border-gold-500 transition-colors">
+                            <i data-lucide="users" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-white mb-3">Anfitrionaje & Protocolo</h3>
+                        <p class="text-zinc-400 text-xs leading-relaxed font-light mb-6">
+                            Modelos capacitados en imagen corporativa, protocolo VIP, ferias internacionales, inauguraciones y eventos de gala.
+                        </p>
+                    </div>
+                    <span class="text-[10px] font-bold tracking-widest uppercase text-gold-500 border-t border-zinc-900 pt-4">Para Empresas & Marcas</span>
+                </div>
+
+                <!-- Servicio 4 -->
+                <div class="bg-zinc-950 p-8 border border-zinc-800 hover:border-gold-500/60 transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 border border-zinc-700 bg-black flex items-center justify-center text-gold-500 mb-6 group-hover:border-gold-500 transition-colors">
+                            <i data-lucide="sparkles" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-white mb-3">Certámenes de Belleza</h3>
+                        <p class="text-zinc-400 text-xs leading-relaxed font-light mb-6">
+                            Asesoría integral para misses: oratoria, automaquillaje, vestuario, etiqueta social y preparación psicológica.
+                        </p>
+                    </div>
+                    <span class="text-[10px] font-bold tracking-widest uppercase text-gold-500 border-t border-zinc-900 pt-4">Coaching Personalizado</span>
+                </div>
+
+                <!-- Servicio 5 -->
+                <div class="bg-zinc-950 p-8 border border-zinc-800 hover:border-gold-500/60 transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 border border-zinc-700 bg-black flex items-center justify-center text-gold-500 mb-6 group-hover:border-gold-500 transition-colors">
+                            <i data-lucide="briefcase" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-white mb-3">Casting & Representación</h3>
+                        <p class="text-zinc-400 text-xs leading-relaxed font-light mb-6">
+                            Conexión directa de nuestras modelos con marcas locales e internacionales para pasarelas y spots publicitarios.
+                        </p>
+                    </div>
+                    <span class="text-[10px] font-bold tracking-widest uppercase text-gold-500 border-t border-zinc-900 pt-4">Bolsa de Trabajo Activa</span>
+                </div>
+
+                <!-- Servicio 6 -->
+                <div class="bg-zinc-950 p-8 border border-zinc-800 hover:border-gold-500/60 transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 border border-zinc-700 bg-black flex items-center justify-center text-gold-500 mb-6 group-hover:border-gold-500 transition-colors">
+                            <i data-lucide="crown" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-white mb-3">Producción de Desfiles</h3>
+                        <p class="text-zinc-400 text-xs leading-relaxed font-light mb-6">
+                            Organización completa de pasarelas, montajes de luces, musicalización y coordinación de diseñadores de moda.
+                        </p>
+                    </div>
+                    <span class="text-[10px] font-bold tracking-widest uppercase text-gold-500 border-t border-zinc-900 pt-4">Eventos Fashion Show</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sucursales Interactivas (El Alto & Potosí) -->
+    <section id="sucursales" class="py-24 bg-zinc-950 border-b border-zinc-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-gold-500 font-semibold text-xs uppercase tracking-widest border-b border-gold-500/40 pb-1">Ubicaciones Estratégicas</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-4 uppercase">Nuestras 2 Sucursales</h2>
+                <p class="text-zinc-400 text-sm mt-3 font-light">Visita nuestras sedes equipadas con salones de pasarela espejados y estudios fotográficos.</p>
+            </div>
+
+            <!-- Botones de Pestaña -->
+            <div class="flex justify-center gap-4 mb-12">
+                <button onclick="switchBranch('elalto')" id="tab-elalto" class="branch-btn px-8 py-3 text-xs font-bold uppercase tracking-widest transition-all bg-gold-500 text-black border border-gold-500">
+                    Sucursal El Alto
+                </button>
+                <button onclick="switchBranch('potosi')" id="tab-potosi" class="branch-btn px-8 py-3 text-xs font-bold uppercase tracking-widest transition-all bg-black text-zinc-400 border border-zinc-800 hover:border-zinc-700">
+                    Sucursal Potosí
+                </button>
+            </div>
+
+            <!-- Contenido Sucursal El Alto -->
+            <div id="branch-elalto" class="branch-content grid lg:grid-cols-12 gap-8 items-center bg-black p-8 border border-zinc-800">
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="inline-block px-3 py-1 bg-zinc-900 border border-gold-500/30 text-gold-400 text-[10px] font-bold uppercase tracking-widest">Sede Central</span>
+                    <h3 class="font-serif text-2xl font-bold text-white uppercase">Sucursal El Alto</h3>
+                    <p class="text-zinc-400 text-xs leading-relaxed font-light">Ubicada en una zona accesible con amplios salones acondicionados para la práctica de pasarela y danza.</p>
+                    
+                    <div class="space-y-4 text-xs text-zinc-300 font-light">
+                        <div class="flex items-start gap-3">
+                            <i data-lucide="map-pin" class="w-4 h-4 text-gold-500 shrink-0 mt-0.5"></i>
+                            <div>
+                                <strong class="text-white block uppercase font-bold text-[11px]">Dirección:</strong>
+                                Villa Bolivar C. Frente a la nueva terminal, Lado magnate vip.
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3">
+                            <i data-lucide="phone" class="w-4 h-4 text-gold-500 shrink-0 mt-0.5"></i>
+                            <div>
+                                <strong class="text-white block uppercase font-bold text-[11px]">Teléfonos & WhatsApp:</strong>
+                                +591 70540427 / +591 77781766
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3">
+                            <i data-lucide="clock" class="w-4 h-4 text-gold-500 shrink-0 mt-0.5"></i>
+                            <div>
+                                <strong class="text-white block uppercase font-bold text-[11px]">Horarios de Atención:</strong>
+                                Lunes a Sábado: 14:00 - 20:00
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/59170540427?text=Hola,%20quisiera%20información%20de%20la%20Sucursal%20El%20Alto" target="_blank" class="inline-flex items-center gap-2 bg-gold-500 text-black font-bold px-6 py-3 text-xs uppercase tracking-widest hover:bg-gold-400 transition">
+                        <i data-lucide="message-circle" class="w-4 h-4"></i> Contactar Sucursal El Alto
+                    </a>
+                </div>
+
+                <div class="lg:col-span-7 h-[350px] border border-zinc-800 overflow-hidden">
+                    <!-- Google Maps Iframe El Alto -->
+                    <iframe class="w-full h-full filter grayscale contrast-125 opacity-90 hover:grayscale-0 transition-all duration-500" 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.1545882539317!2d-68.1770708!3d-16.5182915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915edf0068613d31%3A0xd800f94d29153481!2sConsultorio%20vecinal%20Bolivar%20C!5e0!3m2!1ses!2sbo!4v1793407840435!5m2!1ses!2sbo" 
+                            allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <!-- Contenido Sucursal Potosí -->
+            <div id="branch-potosi" class="branch-content hidden grid lg:grid-cols-12 gap-8 items-center bg-black p-8 border border-zinc-800">
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="inline-block px-3 py-1 bg-zinc-900 border border-gold-500/30 text-gold-400 text-[10px] font-bold uppercase tracking-widest">Sede Imperial</span>
+                    <h3 class="font-serif text-2xl font-bold text-white uppercase">Sucursal Potosí</h3>
+                    <p class="text-zinc-400 text-xs leading-relaxed font-light">Ubicada en el corazón histórico de la ciudad de Potosí, impulsando la moda y el talento potosino.</p>
+                    
+                    <div class="space-y-4 text-xs text-zinc-300 font-light">
+                        <div class="flex items-start gap-3">
+                            <i data-lucide="map-pin" class="w-4 h-4 text-gold-500 shrink-0 mt-0.5"></i>
+                            <div>
+                                <strong class="text-white block uppercase font-bold text-[11px]">Dirección:</strong>
+                                Edificio Fabriles, 1re piso, Pasaje Boulevard entre calles Hoyos y Matos
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3">
+                            <i data-lucide="phone" class="w-4 h-4 text-gold-500 shrink-0 mt-0.5"></i>
+                            <div>
+                                <strong class="text-white block uppercase font-bold text-[11px]">Teléfonos & WhatsApp:</strong>
+                                +591 70540427 / +591 77781766
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3">
+                            <i data-lucide="clock" class="w-4 h-4 text-gold-500 shrink-0 mt-0.5"></i>
+                            <div>
+                                <strong class="text-white block uppercase font-bold text-[11px]">Horarios de Atención:</strong>
+                                Lunes a Sábado: 14:30 - 19:30
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/59170540427?text=Hola,%20quisiera%20información%20de%20la%20Sucursal%20Potosí" target="_blank" class="inline-flex items-center gap-2 bg-gold-500 text-black font-bold px-6 py-3 text-xs uppercase tracking-widest hover:bg-gold-400 transition">
+                        <i data-lucide="message-circle" class="w-4 h-4"></i> Contactar Sucursal Potosí
+                    </a>
+                </div>
+
+                <div class="lg:col-span-7 h-[350px] border border-zinc-800 overflow-hidden">
+                    <!-- Google Maps Iframe Potosí -->
+                    <iframe class="w-full h-full filter grayscale contrast-125 opacity-90 hover:grayscale-0 transition-all duration-500" 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.8891935850543!2d-65.752494!3d-19.5892473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f94e7a7b4796a3%3A0x9ab3b258cfb02568!2sPaseo%20Boulevard!5e0!3m2!1ses!2sbo!4v1793408164638!5m2!1ses!2sbo" 
+                            allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Portafolio & Evidencias / Galería de Fotos -->
+    <section id="galeria" class="py-24 bg-black border-b border-zinc-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-gold-500 font-semibold text-xs uppercase tracking-widest border-b border-gold-500/40 pb-1">Evidencia Fotográfica</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-4 uppercase">Portafolio & Desfiles</h2>
+                <p class="text-zinc-400 text-sm mt-3 font-light">Explora el trabajo de nuestras modelos en pasarelas, sesiones editoriales y eventos de gala.</p>
+            </div>
+
+            <!-- Filtros de Galería -->
+            <div class="flex flex-wrap justify-center gap-2 mb-10 text-xs">
+                <button onclick="filterGallery('all')" class="gallery-filter active px-5 py-2 border border-gold-500 bg-gold-500 text-black font-bold uppercase tracking-wider">Todos</button>
+                <button onclick="filterGallery('pasarela')" class="gallery-filter px-5 py-2 border border-zinc-800 text-zinc-400 font-bold uppercase tracking-wider hover:border-zinc-700">Pasarela</button>
+                <button onclick="filterGallery('editorial')" class="gallery-filter px-5 py-2 border border-zinc-800 text-zinc-400 font-bold uppercase tracking-wider hover:border-zinc-700">Editorial</button>
+                <button onclick="filterGallery('certamen')" class="gallery-filter px-5 py-2 border border-zinc-800 text-zinc-400 font-bold uppercase tracking-wider hover:border-zinc-700">Certámenes</button>
+            </div>
+
+            <!-- Grid de Galería -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="gallery-item pasarela relative group overflow-hidden bg-zinc-900 border border-zinc-800 h-[380px]">
+                    <img src="Imagenes/image1.jpg" alt="Pasarela Fashion Show" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500" onerror="this.src='https://placehold.co/800x1000/18181b/FFFFFF?text=Pasarela'">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-6">
+                        <span class="text-gold-500 text-[10px] font-bold uppercase tracking-widest">Pasarela </span>
+                        <h4 class="font-serif text-lg font-bold text-white uppercase">Bolivia Fashion Runway</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item editorial relative group overflow-hidden bg-zinc-900 border border-zinc-800 h-[380px]">
+                    <img src="Imagenes/image7.jpg" alt="Sesión Editorial" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500" onerror="this.src='https://placehold.co/800x1000/18181b/FFFFFF?text=Editorial'">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-6">
+                        <span class="text-gold-500 text-[10px] font-bold uppercase tracking-widest">Potosi</span>
+                        <h4 class="font-serif text-lg font-bold text-white uppercase">Book Fotográfico Profesional</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item certamen relative group overflow-hidden bg-zinc-900 border border-zinc-800 h-[380px]">
+                    <img src="Imagenes/image3.jpg" alt="Certamen de Belleza" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500" onerror="this.src='https://placehold.co/800x1000/18181b/FFFFFF?text=Certamen'">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-6">
+                        <span class="text-gold-500 text-[10px] font-bold uppercase tracking-widest">Gala Gold</span>
+                        <h4 class="font-serif text-lg font-bold text-white uppercase">Elección Miss Gold</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item pasarela relative group overflow-hidden bg-zinc-900 border border-zinc-800 h-[380px]">
+                    <img src="Imagenes/image4.jpg" alt="Modelaje Comercial" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500" onerror="this.src='https://placehold.co/800x1000/18181b/FFFFFF?text=Moda'">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-6">
+                        <span class="text-gold-500 text-[10px] font-bold uppercase tracking-widest">La Paz</span>
+                        <h4 class="font-serif text-lg font-bold text-white uppercase">Desfile de Alta Costura</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item editorial relative group overflow-hidden bg-zinc-900 border border-zinc-800 h-[380px]">
+                    <img src="Imagenes/image5.jpg" alt="Retrato Editorial" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500" onerror="this.src='https://placehold.co/800x1000/18181b/FFFFFF?text=Retrato'">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-6">
+                        <span class="text-gold-500 text-[10px] font-bold uppercase tracking-widest">Mister kids</span>
+                        <h4 class="font-serif text-lg font-bold text-white uppercase">Mister kids Potosi</h4>
+                    </div>
+                </div>
+
+                <div class="gallery-item certamen relative group overflow-hidden bg-zinc-900 border border-zinc-800 h-[380px]">
+                    <img src="Imagenes/image6.jpg" alt="Premiaición Misses" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500" onerror="this.src='https://placehold.co/800x1000/18181b/FFFFFF?text=Premiacion'">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-6">
+                        <span class="text-gold-500 text-[10px] font-bold uppercase tracking-widest">book</span>
+                        <h4 class="font-serif text-lg font-bold text-white uppercase">Top Model's Gold Bolivia</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Videos Promocionales & Redes Sociales -->
+    <section id="videos" class="py-24 bg-zinc-950 border-b border-zinc-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-gold-500 font-semibold text-xs uppercase tracking-widest border-b border-gold-500/40 pb-1">Multimedia & Redes Sociales</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-4 uppercase">Videos Promocionales</h2>
+                <p class="text-zinc-400 text-sm mt-3 font-light">Disfruta de nuestros resúmenes en video, reels de TikTok, desfiles y contenido exclusivo.</p>
+            </div>
+
+            <!-- Grid de Videos Verticals (TikTok / Reels / Shorts - Formato 9:16) -->
+            <div class="mb-16">
+                <h3 class="text-xs font-bold text-gold-500 uppercase tracking-widest mb-6 flex items-center gap-2">
+                    <i data-lucide="smartphone" class="w-4 h-4"></i> Contenido de la agencia
+                </h3>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+                    
+                    <!-- VIDEO VERTICAL 1 -->
+                    <div class="w-full max-w-[320px] bg-black border border-zinc-800 p-2 shadow-2xl">
+                        <div class="aspect-vertical-video relative bg-zinc-900 border border-zinc-800 overflow-hidden">
+                            <!-- 
+                            ===================================================================
+                            INSERTA AQUÍ TU ENLACE DE EMBED DE TIKTOK / REELS / YOUTUBE SHORTS
+                            Reemplaza el iframe a continuación por el código que te da TikTok o YouTube
+                            ===================================================================
+                            -->
+                            <iframe class="w-full h-full" 
+                                    src="https://www.tiktok.com/player/v1/7701155081936309522" 
+                                    title="Video Promocional TikTok Top Models Gold" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen></iframe>
+                            
+                        </div>
+                        <div class="p-3 text-center">
+                            <span class="text-[10px] font-bold uppercase text-gold-500 block">Convocatoria Abierta</span>
+                            <p class="text-xs text-white font-medium mt-1">Miss Gold La Paz</p>
+                        </div>
+                    </div>
+
+                    <!-- VIDEO VERTICAL 2 -->
+                    <div class="w-full max-w-[320px] bg-black border border-zinc-800 p-2 shadow-2xl">
+                        <div class="aspect-vertical-video relative bg-zinc-900 border border-zinc-800 overflow-hidden">
+                            <!-- INSERTA AQUÍ TU SEGUNDO EMBED DE TIKTOK O YOUTUBE SHORTS -->
+                            <iframe class="w-full h-full" 
+                                    src="https://www.tiktok.com/player/v1/7662565328966274324" 
+                                    title="Video Promocional Potosí Top Models Gold" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen></iframe>
+                        </div>
+                        <div class="p-3 text-center">
+                            <span class="text-[10px] font-bold uppercase text-gold-500 block">Desfile de Pasarela</span>
+                            <p class="text-xs text-white font-medium mt-1">Fashion Week Runway Potosi</p>
+                        </div>
+                    </div>
+
+                    <!-- VIDEO VERTICAL 3 -->
+                    <div class="w-full max-w-[320px] bg-black border border-zinc-800 p-2 shadow-2xl">
+                        <div class="aspect-vertical-video relative bg-zinc-900 border border-zinc-800 overflow-hidden">
+                            <!-- INSERTA AQUÍ TU TERCER EMBED DE TIKTOK O YOUTUBE SHORTS -->
+                            <iframe class="w-full h-full" 
+                                    src="https://www.tiktok.com/player/v1/7663466060535860500" 
+                                    title="Casting Top Models Gold" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen></iframe>
+                        </div>
+                        <div class="p-3 text-center">
+                            <span class="text-[10px] font-bold uppercase text-gold-500 block">Top Model's Gold Bolivia</span>
+                            <p class="text-xs text-white font-medium mt-1">Para esos seres increibles con amor incodicional</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Video Horizontal Grande (YouTube / Facebook / Promo Principal - Formato 16:9) -->
+            <div>
+                <h3 class="text-xs font-bold text-gold-500 uppercase tracking-widest mb-6 flex items-center gap-2">
+                    <i data-lucide="tv" class="w-4 h-4"></i> Convocatoria Abierta
+                </h3>
+
+                <div class="bg-black border border-zinc-800 p-4 max-w-4xl mx-auto shadow-2xl">
+                    <div class="aspect-video relative bg-zinc-900 overflow-hidden border border-zinc-800">
+                        <!-- 
+                        ===================================================================
+                        INSERTA AQUÍ TU VIDEO PRINCIPAL DE YOUTUBE O FACEBOOK (FORMATO HORIZONTAL)
+                        ===================================================================
+                        -->
+                        <iframe class="w-full h-full" 
+                                src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ftopmodelsgoldbolivia%2Fvideos%2F883213363793227%2F&show_text=false&width=560&t=0" 
+                                title="Desfile Anual Top Models Gold Bolivia" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen></iframe>
+                    </div>
+                    <div class="p-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+                        <div>
+                            <h4 class="font-serif text-lg font-bold text-white uppercase">Top Model's Gold Bolivia</h4>
+                            <p class="text-xs text-zinc-400 font-light mt-0.5">Potosi Joya colonial de bolivia</p>
+                        </div>
+                        <a href="https://www.tiktok.com/@topmodelsgoldbolivia?_r=1&_t=ZS-9BBJuCyR9bJ" target="_blank" class="shrink-0 inline-flex items-center gap-2 bg-zinc-900 border border-zinc-700 hover:border-gold-500 text-white font-bold px-4 py-2 text-xs uppercase tracking-widest transition">
+                            <i data-lucide="share-2" class="w-3.5 h-3.5 text-gold-500"></i> Síguenos en Redes
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Formulario de Casting / Postulaciones -->
+    <section id="casting" class="py-24 bg-black border-b border-zinc-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-zinc-950 p-8 sm:p-12 border border-zinc-800 shadow-2xl relative overflow-hidden">
+                <div class="text-center max-w-2xl mx-auto mb-10">
+                    <span class="text-gold-500 font-semibold text-xs uppercase tracking-widest border-b border-gold-500/40 pb-1">Convocatoria Abierta</span>
+                    <h2 class="font-serif text-3xl font-bold text-white mt-4 uppercase">Postula al Próximo Casting</h2>
+                    <p class="text-zinc-400 text-xs mt-2 font-light">Completa tus datos para agendar una entrevista presencial en la sucursal de tu elección.</p>
+                </div>
+
+                <form onsubmit="handleCastingSubmit(event)" class="space-y-4">
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-[10px] font-bold text-gold-500 uppercase tracking-widest mb-1">Nombre Completo</label>
+                            <input type="text" id="c-name" required placeholder="Ej. Camila Morales" class="w-full bg-black border border-zinc-800 px-4 py-3 text-xs text-white focus:outline-none focus:border-gold-500">
+                        </div>
+                        <div>
+                            <label class="block text-[10px] font-bold text-gold-500 uppercase tracking-widest mb-1">Edad</label>
+                            <input type="number" id="c-age" required placeholder="Ej. 18" class="w-full bg-black border border-zinc-800 px-4 py-3 text-xs text-white focus:outline-none focus:border-gold-500">
+                        </div>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-[10px] font-bold text-gold-500 uppercase tracking-widest mb-1">Estatura Aproximada (cm)</label>
+                            <input type="text" id="c-height" required placeholder="Ej. 170 cm" class="w-full bg-black border border-zinc-800 px-4 py-3 text-xs text-white focus:outline-none focus:border-gold-500">
+                        </div>
+                        <div>
+                            <label class="block text-[10px] font-bold text-gold-500 uppercase tracking-widest mb-1">Sucursal a Postular</label>
+                            <select id="c-branch" class="w-full bg-black border border-zinc-800 px-4 py-3 text-xs text-white focus:outline-none focus:border-gold-500">
+                                <option value="El Alto">Sucursal El Alto</option>
+                                <option value="Potosí">Sucursal Potosí</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-[10px] font-bold text-gold-500 uppercase tracking-widest mb-1">Área de Interés</label>
+                        <select id="c-interest" class="w-full bg-black border border-zinc-800 px-4 py-3 text-xs text-white focus:outline-none focus:border-gold-500">
+                            <option value="Academia de Modelaje (Cursos)">Academia de Modelaje (Cursos)</option>
+                            <option value="Casting para Marcas / Desfiles">Casting para Marcas / Desfiles</option>
+                            <option value="Anfitrionaje / Protocolo">Anfitrionaje / Protocolo</option>
+                            <option value="Certamen de Belleza">Certamen de Belleza</option>
+                            <option value="Curso de Musica">Curso de Musica</option>
+                            <option value="Public Speaking">Public Speaking</option>
+                            <option value="Otro servicio">Otro Servicio</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="w-full bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-black font-bold py-4 text-xs uppercase tracking-widest transition shadow-lg mt-4 flex items-center justify-center gap-2">
+                        <i data-lucide="send" class="w-4 h-4"></i> Enviar Postulación a WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-zinc-950 text-zinc-400 py-16 border-t border-zinc-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+                
+                <div class="space-y-4">
+                    <!-- Logo de la Agencia (FOOTER) -->
+                    <a href="#" class="flex items-center gap-2">
+                        <!-- Aquí va tu imagen -->
+                        <img src="Imagenes/logo1.png" alt="Logo Top Models Gold" class="h-8 w-auto object-contain">
+    
+                        <span class="font-serif font-bold text-white tracking-widest text-sm">TOP MODEL'S GOLD BOLIVIA</span>
+                    </a>
+                    <p class="text-xs text-zinc-500 leading-relaxed font-light">
+                        Agencia y academia de modelaje profesional líder en El Alto y Potosí, Bolivia. Formando con pasión y elegancia.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-white text-xs font-bold uppercase tracking-widest mb-4">Sucursales</h4>
+                    <ul class="space-y-2 text-xs font-light text-zinc-400">
+                        <li>📍 <strong>El Alto:</strong> Villa Bolivar C. Frente a la nueva terminal, Lado magnate vip.</li>
+                        <li>📍 <strong>Potosí:</strong>  Edificio Fabriles, 1re piso, Pasaje Boulevard entre calles Hoyos y Matos</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white text-xs font-bold uppercase tracking-widest mb-4">Navegación</h4>
+                    <ul class="space-y-2 text-xs font-light">
+                        <li><a href="#inicio" class="hover:text-gold-400 transition">Inicio</a></li>
+                        <li><a href="#servicios" class="hover:text-gold-400 transition">Servicios</a></li>
+                        <li><a href="#galeria" class="hover:text-gold-400 transition">Portafolio</a></li>
+                        <li><a href="#videos" class="hover:text-gold-400 transition">Videos Promocionales</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white text-xs font-bold uppercase tracking-widest mb-4">Redes Sociales</h4>
+                    <div class="flex gap-3">
+                        
+                        <!-- TikTok -->
+                        <a href="https://www.tiktok.com/@topmodelsgoldbolivia?_r=1&_t=ZS-9BBJuCyR9bJ" target="_blank" rel="noopener" aria-label="TikTok" class="w-9 h-9 border border-zinc-800 flex items-center justify-center text-zinc-300 hover:border-gold-500 hover:text-gold-400 transition">
+                            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                        </a>
+                
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/share/1Q5FECHYSQ/" target="_blank" rel="noopener" aria-label="Facebook" class="w-9 h-9 border border-zinc-800 flex items-center justify-center text-zinc-300 hover:border-gold-500 hover:text-gold-400 transition">
+                            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/boliviatopmodelsgoldkennedy?psln=bmQ1OWJ0bXJnODM2" target="_blank" rel="noopener" aria-label="Instagram" class="w-9 h-9 border border-zinc-800 flex items-center justify-center text-zinc-300 hover:border-gold-500 hover:text-gold-400 transition">
+                            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+                        </a>
+                
+                        <!-- YouTube -->
+                        <a href="https://youtube.com/@topmodelsgoldbolivia?si=_5XH-md-t-hDPR85" target="_blank" rel="noopener" aria-label="YouTube" class="w-9 h-9 border border-zinc-800 flex items-center justify-center text-zinc-300 hover:border-gold-500 hover:text-gold-400 transition">
+                            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="pt-8 border-t border-zinc-900 text-center text-[10px] text-zinc-600 uppercase tracking-widest">
+                <p>&copy; 2026 TOP MODEL'S GOLD BOLIVIA. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Lógica de Interacción -->
+    <script>
+        // Inicializar Lucide Icons
+        lucide.createIcons();
+
+        // Menú Móvil Toggle
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Cambio de Pestaña de Sucursales (El Alto vs Potosí)
+        function switchBranch(branch) {
+            document.querySelectorAll('.branch-content').forEach(el => el.classList.add('hidden'));
+            
+            document.querySelectorAll('.branch-btn').forEach(btn => {
+                btn.classList.remove('bg-gold-500', 'text-black', 'border-gold-500');
+                btn.classList.add('bg-black', 'text-zinc-400', 'border-zinc-800');
+            });
+
+            document.getElementById(`branch-${branch}`).classList.remove('hidden');
+            const activeTab = document.getElementById(`tab-${branch}`);
+            activeTab.classList.add('bg-gold-500', 'text-black', 'border-gold-500');
+            activeTab.classList.remove('bg-black', 'text-zinc-400', 'border-zinc-800');
+        }
+
+        // Filtro de Galería Fotográfica
+        function filterGallery(category) {
+            const items = document.querySelectorAll('.gallery-item');
+            const buttons = document.querySelectorAll('.gallery-filter');
+
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-gold-500', 'text-black', 'border-gold-500');
+                btn.classList.add('text-zinc-400', 'border-zinc-800');
+            });
+
+            event.target.classList.add('bg-gold-500', 'text-black', 'border-gold-500');
+
+            items.forEach(item => {
+                if (category === 'all' || item.classList.contains(category)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // Envío de Formulario de Casting a WhatsApp
+        function handleCastingSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('c-name').value;
+            const age = document.getElementById('c-age').value;
+            const height = document.getElementById('c-height').value;
+            const branch = document.getElementById('c-branch').value;
+            const interest = document.getElementById('c-interest').value;
+            
+            const text = `Hola *TOP MODEL'S GOLD BOLIVIA*, deseo postular al casting.%0A%0A*Nombre:* ${name}%0A*Edad:* ${age} años%0A*Estatura:* ${height}%0A*Sucursal:* ${branch}%0A*Interés:* ${interest}`;
+            
+            // Número de WhatsApp principal de la agencia (modificar según corresponda)
+            window.open(`https://wa.me/59170540427?text=${text}`, '_blank');
+        }
+    </script>
+</body>
+</html>
